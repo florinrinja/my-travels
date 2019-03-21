@@ -2,7 +2,12 @@ import React, { Component } from "react";
 import logo from "./logo.svg";
 import "./App.css";
 
-import Travel from "./Travel";
+//import Travel from "./Travel";
+import Travels from "./Travels";
+
+
+
+
 
 class App extends Component {
   render() {
@@ -12,13 +17,13 @@ class App extends Component {
           <img src={logo} className="App-logo" alt="logo" />
           <h1 className="App-title">Travel</h1>
         </header>
-        <Travel
+        {/* <Travels
           destination="Europe"
           country="Croatia"
           photo="https://www.rei.com/adventures/assets/adventures/images/trip/core/europe/cih_hero"
           distance="~ approx 1700 km. by car. ~"
-        />
-        <Travel
+        /> */}
+        <Travels
           destination="Europe"
           country="Romania"
           photo="https://i.ytimg.com/vi/UHRcQmQ_hK0/maxresdefault.jpg"
